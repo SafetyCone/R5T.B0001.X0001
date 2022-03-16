@@ -17,5 +17,15 @@ namespace System
         {
             return TypeNames.IServiceAction;
         }
+
+        public static string IServiceDefinition(this ITypeName _)
+        {
+            return TypeNames.IServiceDefinition;
+        }
+
+        public static string IServiceImplementation(this ITypeName _)
+        {
+            return TypeNames.IServiceImplementation;
+        }
     }
 }
