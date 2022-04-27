@@ -8,11 +8,6 @@ namespace System
 {
     public static partial class ITypeNameExtensions
     {
-        //public static string IHostBuilder(this ITypeName _)
-        //{
-        //    return TypeNames.IHostBuilder;
-        //}
-
         public static string IServiceAction(this ITypeName _)
         {
             return TypeNames.IServiceAction;

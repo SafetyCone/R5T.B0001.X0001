@@ -10,5 +10,6 @@ namespace R5T.B0001.X0001
         public static string IHost => "IHost";
         //public static string IHostBuilder_ExtensionMethodBase => "IHostBuilder";
         public static string IProjectPath => "IProjectPath";
+        public static string IServiceAction_Base => "IServiceAction";
     }
 }

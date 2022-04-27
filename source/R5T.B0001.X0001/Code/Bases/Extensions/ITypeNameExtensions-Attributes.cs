@@ -13,6 +13,16 @@ namespace System
             return TypeNames.ExtensionMethodBaseMarkerAttribute;
         }
 
+        public static string INoServiceDefinition(this ITypeName _)
+        {
+            return TypeNames.INoServiceDefinition;
+        }
+
+        public static string IServiceAction_Attribute(this ITypeName _)
+        {
+            return TypeNames.IServiceAction_Attribute;
+        }
+
         public static string ServiceDefinitionMarkerAttribute(this ITypeName _)
         {
             return TypeNames.ServiceDefinitionMarkerAttribute;

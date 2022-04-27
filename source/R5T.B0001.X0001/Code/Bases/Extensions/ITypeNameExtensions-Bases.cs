@@ -32,5 +32,10 @@ namespace System
         {
             return TypeNames.IProjectPath;
         }
+
+        public static string IServiceAction_Base(this ITypeName _)
+        {
+            return TypeNames.IServiceAction_Base;
+        }
     }
 }
